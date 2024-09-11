@@ -39,7 +39,7 @@ const User = () => {
     const theme = useTheme();
     const dispatch = useDispatch();
     const colors = tokens(theme.palette.mode);
-    const imgUrl ='https://solar-backend-teal.vercel.app'; // Accessing the environment variable
+    const imgUrl ='https://server11-omega.vercel.app'; // Accessing the environment variable
     console.log(process.env)
 
     const [open, setOpen] = useState(false);
